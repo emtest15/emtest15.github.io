@@ -1,1 +1,379 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The University of Tennessee, Knoxville</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style>
+
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-width: 500px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #F0EDE4;
+}
+
+a {
+  color: #006C93;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #E65933;
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 {
+  font-size: 38.5px;
+}
+
+h2 {
+  font-size: 31.5px;
+}
+
+h3 {
+  font-size: 24.5px;
+}
+ul {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+li {
+  line-height: 20px;
+}
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #d8d5cd;
+  border-bottom: 1px solid #d8d5cd;
+}
+.twitterer {
+	width: 400px;
+}
+.nav {
+  margin-bottom: 20px;
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav > li > a {
+  display: block;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #d8d5cd;
+}
+.navbar {
+  margin-bottom: 20px;
+  overflow: visible;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #4C4D4F;
+  *zoom: 1;
+}
+
+.navbar-inner:before,
+.navbar-inner:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.navbar-inner:after {
+  clear: both;
+}
+.navbar .container {
+  width: auto;
+}
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.navbar .nav > li {
+  float: left;
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #8A8C8F;
+  text-decoration: none;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+  min-width: 400px;
+  width: 90%;
+}
+#main {
+	padding-top: 60px;
+}
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+.icon {
+	float: left;
+	margin-right: 20px;
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #4C4D4F;
+  border: 1px solid #000;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.well h3 {
+  color: #F0EDE4;
+  margin-bottom: 20px;
+}
+.column {
+	float: left;
+	margin: 1em 5%;
+	width: 39%;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+
+				@media only screen and (min-width: 960px) {
+				.well  {
+					 float: left;
+					 margin: 0 2.5%;
+					 width: 40%;
+					}
+				}
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script> 
+  $(function(){
+    $("#includedContent").load("bob.html"); 
+  });
+</script> 
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+                                   <link rel="shortcut icon" href="/favicon.ico">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  var pixelRatio = (window.devicePixelRatio >= 1.5) ? "HiDPI" : "1X"; 
+  if (window.devicePixelRatio) _gaq.push(['_setCustomVar', 1, 'DevicePixelRatio', pixelRatio, 2 ]);
+  _gaq.push(['_setAccount', 'UA-185715-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+
+  <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a  href="http://www.utk.edu" class="icon"><img src="images/interface/ut-mark.gif" alt="ut-mark" width="64" height="35"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#twitter">Updates from Twitter</a></li>
+              <li><a href="#facebook">Updates from Facebook</a></li>
+              <li><a href="#numbers">Emergency Numbers</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="main">
+    
+
+ <!-- ======= INCLUDE THE ALERT HERE ============= -->
+ <div id="includedContent"></div>
+
+
+<hr class="clearfix">
+
+<div class="row" id="numbers">
+	<div class="half column">
+				<h3>Safety Reference Numbers</h3>
+						<ul>
+							<li><strong>Emergency</strong> 911</li>
+							<li><strong>UT Police (Emergency)</strong> 865-974-3111</li>
+							<li><strong>UT Police (Main line)</strong> 865-974-3114</li>
+							<li><strong>Distressed Student Hotline</strong> 865-974-HELP (4357)</li>
+							<li><strong>Distressed Faculty &amp; Staff Hotline</strong> 865-946-CARE (2273)</li>
+							<li><strong>Campus Information </strong> 865-974-1000</li>
+							<li><strong>Office of Emergency Management</strong> 865-974-3061</li>
+							<li><strong>Student Counseling Service Center</strong> 865-974-2196</li>
+							<li><strong>Employee Counseling</strong> 865-800-308-4934</li>
+							<li><strong>Employee Relations</strong> 865-946-8847</li>
+							<li><strong>Student Health Service</strong> 865-974-3135</li>
+							<li><strong>Campus Environmental Health and Safety</strong> 865-974-5084</li>
+							<li><strong>Facilities Services</strong> 865-974-5346</li>
+							<li><strong>UT Institute of Agriculture Safety</strong> 865-974-1153</li>
+							<li><strong>T:Link (Late-night shuttle) </strong> 865-974-4080</li>
+						</ul>
+	</div><div class="half column">
+	
+					<h3>Important Links</h3>
+						<ul>
+							<li><a href="http://recover.tennessee.edu/">Campus Safety</a></li>
+							<li><a href="http://safety.utk.edu/">Campus Safety</a></li>
+							<li><a href="https://www.utk.edu/utalert/">UT Alert</a></li>
+							<li><a href="http://utpolice.utk.edu/">UT Police</a></li>
+						</ul>			
+	</div>
+</div>
+
+
+
+
+
+<br class="clearfix">
+
+	<div class="row">
+	    	<div class="well" id="twitter">
+					<h3>Alerts from Twitter</h3>
+					<div class="twitterer">
+						<a class="twitter-timeline" href="https://twitter.com/UTKnoxville" data-widget-id="249250899006984192">Tweets by @UTKnoxville</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+			</div>
+	
+	
+	
+	
+	    	<div class="well"  id="facebook">
+					<h3>Alerts from Facebook</h3>
+					<div class="fb-like-box" data-href="http://www.facebook.com/utknoxville" data-width="400" data-height="600" data-colorscheme="dark" border_color="#666" data-show-faces="false" data-stream="true" data-header="false"></div>
+			</div>
+	
+	</div>
+
+
+
+<br class="clearfix">
+
+<p>Knoxville, Tennessee 37996 | 865-974-1000<br />
+				The flagship campus of the University of Tennessee System</p>
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
